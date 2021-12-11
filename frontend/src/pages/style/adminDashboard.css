@@ -1,0 +1,136 @@
+.adminContainer{
+    background-color: #eeeeee;
+    min-height: 100vh;
+}
+.adminNavbarContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #161616;
+}
+.adminNavbarLogo{
+    margin: 0 1em 1em 3em;
+}
+.adminNavbarContainer .avatar{
+    display: block;
+    align-items: center;
+    margin: 1em 2em 1em 1em;
+}
+.adminNavbarContainer .avatar img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #C4C4C4;
+}
+.adminTitle{
+    margin: 1em 1em 1em 3em;
+}
+.list-content{
+    margin-top: 2em;
+    padding-bottom: 2em;
+}
+.list-content .list-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.list-content .list-table th{
+    text-align: left;
+    padding:  15px 10px;
+    background-color: white;
+    border-bottom: 1px solid darkgray;
+}
+.list-content .list-table .actionTable{
+    text-align: center;
+}
+.list-content .list-table .no-false{
+    padding: 15px 10px;
+    border-bottom: 1px solid darkgrey;
+}
+.list-content .list-table .no-true{
+    padding: 15px 10px;
+    background-color: white;
+    border-bottom: 1px solid darkgrey;
+}
+.list-content .list-table .waiting-no-false{
+    padding: 15px 10px;
+    color: #F7941E;
+    font-weight: bold;
+    border-bottom: 1px solid darkgrey;
+}
+.list-content .list-table .waiting-no-true{
+    padding: 15px 10px;
+    color: #F7941E;
+    font-weight: bold;
+    background-color: white;
+    border-bottom: 1px solid darkgrey;
+}
+.list-content .list-table .cancel-no-false{
+    padding: 15px 10px;
+    color: #FF0742;
+    font-weight: bold;
+    border-bottom: 1px solid darkgrey;
+}
+.list-content .list-table .cancel-no-true{
+    padding: 15px 10px;
+    color: #FF0742;
+    font-weight: bold;
+    background-color: white;
+    border-bottom: 1px solid darkgrey;
+}
+.list-content .list-table .approved-no-false{
+    padding: 15px 10px;
+    color: #0ACF83;
+    font-weight: bold;
+    border-bottom: 1px solid darkgrey;
+}
+.list-content .list-table .approved-no-true{
+    padding: 15px 10px;
+    color: #0ACF83;
+    font-weight: bold;
+    background-color: white;
+    border-bottom: 1px solid darkgrey;
+}
+.list-content .list-table span{
+    display: flex;
+    justify-content: center;
+}
+.list-content .list-table .crossSymbol{
+    width: 42px;
+}
+.list-content .list-table .btnCancel{
+    flex: 1;
+    border: none;
+    background-color: #FF0742;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0;
+    margin-right: 10px;
+}
+.list-content .list-table .btnApprove{
+    flex: 1;
+    border: none;
+    background-color: #0ACF83;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0;
+}
+.adminDeleteCont{
+    display: flex;
+    flex: 1;
+}
+/* .adminDeleteCont .adminDeleteAlert{
+    flex: 1;
+    margin: 0;
+    display: flex;
+    align-items: center;
+} */
+/* .adminDeleteCont .adminDeleteAlert img{
+    width: 36px;
+} */
+.adminDeleteCont .crossSymbol{
+    flex: 1;
+}
+/*.adminDeleteCont span{
+    flex: 1;
+} */

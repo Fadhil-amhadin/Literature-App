@@ -1,0 +1,17 @@
+.searchContainer{
+    background-color: #161616;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.searchTitleContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.searchTitleContainer img{
+    width: 30%;
+}

@@ -1,0 +1,52 @@
+.landingContainer{
+    background-color:#161616;
+    height: 100vh;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+.landingLeft{
+    flex: 2;
+    color: white;
+    padding-left: 5%;
+}
+.landingRight{
+    flex: 3;
+    text-align: center;
+}
+.landingRight div{
+    width: fit-content;
+    text-align: center;
+}
+.landingRight img{
+    margin-top: 7%;
+    width: 80%;
+}
+
+.landingContent h1{
+    font-size: 5em;
+    max-width: 100%;
+    margin-top: 1em;
+}
+.landingContent p{
+    font-size: 1.4em;
+    font-family: Avenir;
+    font-weight: lighter;
+    margin-top: 1em;
+}
+.frontBtnContainer .frontSignUp{
+    font-family: Avenir;
+    background-color: #AF2E1C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 55px 13px 55px;
+    margin-right: 2em;
+    margin-top: 1em;
+}
+.frontBtnContainer .frontSignIn{
+    font-family: Avenir;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 55px 13px 55px;
+    margin-top: 1em;
+}

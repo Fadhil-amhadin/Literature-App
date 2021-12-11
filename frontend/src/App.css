@@ -1,0 +1,339 @@
+.searchResult{
+  background-color: #161616;
+  min-height: 100vh;
+}
+.navbarContainer{
+  background-color: #161616;
+  display: flex;
+}
+.navbarMenu{
+  flex: 1;
+  color: white;
+  font-family: Avenir;
+  display: flex;
+}
+.navbarMenu button{
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+.navbarMenu .profile-profileStyle{
+  color: #AF2E1C;
+}
+.navbarMenu .collection-collectionStyle{
+  color: #AF2E1C;
+}
+.navbarMenu .add-addStyle{
+  color: #AF2E1C;
+}
+.navbarMenu button:hover{
+  color: #AF2E1C;
+}
+.navbarMenu p{
+  margin-top: 2em;
+  margin-left: 2em;
+}
+.navbarLogo{
+  margin-right: 1em;
+}
+
+/* search bar styling */
+.searchBarContainer{
+  margin-top: 1em;
+  margin-bottom: 4em;
+  display: flex;
+}
+.searchBarForm{
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchInput{
+  padding: 10px;
+  width: 32vw;
+  margin-right: 1vw;
+  border-radius: 5px;
+  border: 1px solid darkgray;
+  background-color: rgba(210, 210, 210, 0.25);
+}
+.searchSubmit{
+  background-color: #AF2E1C;
+  height: 100%;
+  margin-left: auto;
+  width: 4vw;
+  border-radius: 5px;
+  border: none;
+}
+.searchSubmit img{
+  width: 26px!important;
+}
+
+/* card styling */
+.cardContainer{
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  padding: 5px;
+  color: white;
+  justify-content: space-between;
+  margin: 1em 2em 1em 2em;
+  /* margin-right: 2em; */
+}
+.card-approved{
+  color: #0ACF83;
+  text-align: center;
+}
+.card-cancel{
+  color: #FF0742;
+  text-align: center;
+}
+.card-waiting{
+  color: #F7941E;
+  text-align: center;
+}
+.cardContainer .react-pdf__Page{
+  height: 200px!important;
+}
+.cardContainer .react-pdf__Page__canvas{
+  width: 150px!important;
+  height: 200px!important;
+}
+.cardContainer .react-pdf__Page__textContent{
+  height: 200px!important;
+  width: 150px!important;
+}
+.cardContainer .react-pdf__Page__annotations{
+  display: none;
+}
+
+.cardContainer .react-pdf__Document{
+  height: 200px!important;
+}
+.titleModalContainer{
+  display: flex;
+  justify-content: space-between;
+}
+.titleModalContainer button{
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: lighter;
+}
+.cardContainer h4{
+  margin: 0;
+  margin-top: 10px;
+  height: 2em;
+  font-family: 'Times New Roman', Times, serif;
+}
+.cardFooter{
+  display: flex!important;
+  flex-direction: row!important;
+  justify-content: space-between;
+}
+.cardFooter p{
+  font-family: Avenir;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+/* modal sytling */
+.modal-content{
+  width: 28vw!important;
+  background-color: transparent!important;
+}
+.modalContainer{
+  background-color: #161616;
+  border-radius: 10px;
+  padding: 2em;
+}
+.modalContainer h1{
+  color: white;
+  margin-bottom: 1em;
+}
+.modalCont{
+  display: flex;
+  flex-direction: column;
+}
+.modalCont input, .modalCont select{
+  flex: 1;
+  margin-bottom: 1em;
+  padding: 5px;
+  color: #D2D2D2;
+  border: 1px solid #D2D2D2;
+  border-radius: 5px;
+  background-color: rgba(210, 210, 210, 0.25);
+}
+input::placeholder{
+  color: #D2D2D2;
+}
+.modalCont input:focus, .modalCont select:focus{
+  outline: none;
+  border: 1px solid #918f8f;
+}
+.modalCont button{
+  flex: 1;
+  margin-bottom: 1em;
+  padding: 5px;
+  background-color: #AF2E1C;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.modal-dialog{
+  display: flex;
+  justify-content: center;
+}
+.modalContainerConfirm{
+  background-color: white;
+  padding: 2em;
+  border-radius: 10px;
+}
+.modalContainerConfirm h4, .modalContainerConfirm h5{
+  text-align: center;
+}
+.confirmContent{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.confirmContent p{
+  margin: 0;
+  margin-bottom: 5px;
+}
+.btnConfirmCont{
+  display: flex;
+  justify-content: center;
+}
+.btnConfirmCont .confirmYes{
+  flex: 1;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-right: 5px;
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.btnConfirmCont .confirmNo{
+  flex: 1;
+  background-color: #AF2E1C;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-left: 5px;
+  padding: 5px 10px 5px 10px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+/* dropdown styling */
+.dropdownContainer{
+  background-color: white;
+  position: fixed;
+  width: 160px;
+  right: 0;
+  right: 2em;
+  border-radius: 5px;
+  padding: 5px;
+  top: 85px;
+}
+.arrow-container{
+  display: flex;
+  justify-content: flex-end;
+}
+.top-arrow{
+  margin-top: -17px;
+  width: 0; 
+  height: 0; 
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid white;
+  margin-right: 5px;
+}
+.dropdownContent span{
+  display: flex;
+  align-items: center;
+}
+.dropdownContent span p{
+  margin: 0 0 0 10px;
+  font-weight: bold;
+  font-family: Avenir;
+  font-size: 1.3em;
+}
+.dropdownContent span img{
+  border: none!important;
+  width: 40px!important;
+  height: 40px!important;
+}
+.alreadyHaveAccount, .dontHaveAccount{
+  text-align: center;
+  color: white;
+  font-family: Avenir;
+}
+.alreadyHaveAccount button, .dontHaveAccount button{
+  background-color: transparent;
+  color: #AF2E1C;
+  font-weight: bold;
+}
+/* delete literature */
+.deleteContainer{
+  background-color: #161616;
+  padding: 1em;
+  border-radius: 10px;
+  color: white;
+}
+.deleteContainer p{
+  text-align: center;
+}
+.deleteContainer div{
+  display: flex;
+  justify-content: center;
+}
+.deleteContainer div .yes{
+  flex: 1;
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.deleteContainer div .no{
+  flex: 1;
+  background-color: #AF2E1C;
+  color: white;
+  border: none;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+/* profile alert modal */
+.profileAlertCont{
+  background-color: #161616;
+  padding: 1em;
+  border-radius: 10px;
+  color: white;
+}
+.profileAlertCont div{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.profileAlertCont p span{
+  color: #FF0742;
+}
+.profileAlertCont button{
+  background-color: #AF2E1C;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 20px 5px 20px;
+  border: none;
+}
+.profileAlertCont p{
+  margin: 0;
+  text-align: center;
+}
+/* chart styling */
+.recharts-responsive-container{
+  margin-top: 1em;
+}

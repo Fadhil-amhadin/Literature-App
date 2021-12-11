@@ -1,0 +1,56 @@
+.detailRow{
+    display: flex;
+    background-color: #161616;
+    color: white;
+    /* height: 100%; */
+    min-height: 88.3vh;
+    padding: 2em 2em 0 2em;
+}
+.detailColOne{
+    flex: 2;
+}
+.detailColOne iframe{
+    height: 70%;
+}
+.react-pdf__Page__textContent{
+    height: 80vh!important;
+}
+.react-pdf__Page__textContent span{
+    display: none;
+}
+.react-pdf__Page__canvas {
+    width: 27vw!important;
+    height: 77vh!important;
+    border-radius: 10px;
+}
+.react-pdf__Document {
+    height: 80vh;
+}
+.react-pdf__Page__annotations section{
+    display: none;
+ 
+}
+.detailColTwo{
+    flex: 3;
+}
+.detailColTwo button{
+    background-color: #AF2E1C;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.detailColThree{
+    flex: 1;
+}
+.detailColThree button{
+    background-color: #AF2E1C;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.profileCardCont{
+    display: flex;
+    margin-left: -1em;
+}

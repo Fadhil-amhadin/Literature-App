@@ -1,0 +1,14 @@
+.collectionContainer{
+    background-color: #161616;
+    min-height: 100vh;
+}
+.collectionContainer h1{
+    padding: 1em;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.collectionContent{
+    display: flex;
+    padding-left: 1em;
+}

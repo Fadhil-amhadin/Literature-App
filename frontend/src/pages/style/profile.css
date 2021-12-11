@@ -1,0 +1,77 @@
+.profileContainer{
+    background-color: #161616;
+    color: white;
+}
+.profileContainerTwo{
+    margin: 2em;
+}
+.profileContainerTwo h1{
+    margin-bottom: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.profileContainerTwo h1 img{
+    width: 40px;
+}
+.profileContainerThree{
+    display: flex;
+    padding: 2em;
+    justify-content: space-between;
+    background-color: #252525;
+    border-radius: 5px;
+    font-family: Avenir;
+}
+.profileSectLeft div{
+    display: flex;
+    align-items: center;
+}
+.profileSectLeft .logo{
+    display: block;
+    margin-right: 1em;
+}
+.profileSectLeft .logo img{
+    width: 36px;
+}
+.profileSectLeft .text{
+    display: block;
+    margin-top: 1em;
+}
+.profileSectLeft .text h6{
+    margin-bottom: 0;
+}
+.profileSectLeft .text p{
+    color: #8A8C90;
+}
+
+.profileSectRight{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.profileSectRight img{
+    border-radius: 5px;
+    width: 18vw;
+}
+#profilePhoto{
+    display: none;
+}
+.profileSectRight button{
+    margin-top: 1em;
+    padding: 12px 20px 12px 20px;
+    width: 18vw;
+    border: none;
+    border-radius: 5px;
+    background-color: #AF2E1C;
+    color: white;
+}
+
+.profileContainerFour{
+    padding: 2em;
+}
+.profileContainerFour h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.profileContainerFour .profileCardCont{
+    display: inline-block;
+}

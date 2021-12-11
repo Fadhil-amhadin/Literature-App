@@ -1,0 +1,32 @@
+.searchContRes{
+    margin: 4%;
+}
+.resultContainer{
+    margin-top: -5em;
+    margin-left: 4.8%;
+    display: flex;
+}
+.resultContainer select{
+    border: 1px solid #BCBCBC;
+    font-family: Avenir;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgba(210, 210, 210, 0.25);
+    color: #BCBCBC;
+    width: 100px;
+    height: 2em;
+}
+.resultLeft{
+    flex: 1;
+}
+.resultLeft h4{
+    color: #AF2E1C;
+    margin-top: 0;
+}
+.resultRight{
+    flex: 5;
+    /* display: flex; */
+}
+.resultRight div{
+    display: inline-block;
+}

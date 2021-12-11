@@ -1,0 +1,25 @@
+.analyticsContainer{
+    background-color:  #eeeeee;
+    min-height: 100vh;
+    max-height: fit-content;
+    padding-bottom: 2em;
+}
+.analyticsNavbarContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #161616;
+}
+.analyticsNavbarLogo{
+    margin: 0 1em 1em 3em;
+}
+.analyticsNavbarContainer .avatar{
+    display: block;
+    align-items: center;
+    margin: 1em 2em 1em 1em;
+}
+.analyticsNavbarContainer .avatar img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #c4c4c4;
+}
